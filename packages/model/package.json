@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/model",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@vueuse/core": "^10.9.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.27"
+  },
+  "dependencies": {
+    "@falcondev-oss/trpc-vue-query": "^0.4.2",
+    "@monorepo/backend": "workspace:*",
+    "@tanstack/vue-query": "^5.36.0",
+    "@trpc/client": "10.45.2",
+    "@trpc/server": "10.45.2"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
